@@ -1,2 +1,13 @@
-# Nepali-Word-Segmentation-from-Image
-It is used to segment the handwritten text images in Nepali. It segments the image into its corresponding segmented words. It makes separate file from the name of image after segmentation the words.
+# Word Segmentation
+
+The algorithm takes an image of line as input and outputs the segmented words. The algorithm achieve good results, is fast, and  is easy to implement.
+
+### Run demo
+Run the script `checkout.py`. The test image from the current directory will be taken i.e. `test.jpg` are segmented into words and the results are saved to the `segmented/` directory.
+
+Tested on python 3.6 & 3.7
+
+The illustration below shows how the algorithm works:  
+![original](test.jpg) ![segmented](segmented_text.png)
+
+
